@@ -2,7 +2,6 @@ package com.capstone.transactiontype.Configurations;
 
 import com.capstone.transactiontype.Classifiers.TransactionTypeClassifier;
 import com.capstone.transactiontype.Models.TransactionTypeModel;
-import com.capstone.transactiontype.Processors.AllTypesProcessor;
 import com.capstone.transactiontype.Processors.SingleTypeProcessor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.*;

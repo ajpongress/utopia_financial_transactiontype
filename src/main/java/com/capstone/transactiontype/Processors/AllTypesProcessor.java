@@ -15,13 +15,6 @@ public class AllTypesProcessor implements ItemProcessor<TransactionTypeModel, Tr
     // --                                  SETUP                                       --
     // ----------------------------------------------------------------------------------
 
-    //private final HashMap<Long, String> transactionMap = new HashMap<>();
-
-    // Useful for additional jobs or steps
-//    public void clearMap() {
-//        transactionMap.clear();
-//    }
-
     private static long transactionIdCounter = 0;
 
     // ----------------------------------------------------------------------------------
