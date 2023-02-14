@@ -17,6 +17,10 @@ public class AllTypesProcessor implements ItemProcessor<TransactionTypeModel, Tr
 
     private static long transactionIdCounter = 0;
 
+    public void clearAllTrackersAndCounters() {
+        transactionIdCounter = 0;
+    }
+
     // ----------------------------------------------------------------------------------
     // --                                METHODS                                       --
     // ----------------------------------------------------------------------------------

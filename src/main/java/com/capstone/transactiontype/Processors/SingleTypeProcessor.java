@@ -22,6 +22,10 @@ public class SingleTypeProcessor implements ItemProcessor<TransactionTypeModel, 
 
     private static long transactionIdCounter = 0;
 
+    public void clearAllTrackersAndCounters() {
+        transactionIdCounter = 0;
+    }
+
     // ----------------------------------------------------------------------------------
     // --                                METHODS                                       --
     // ----------------------------------------------------------------------------------
